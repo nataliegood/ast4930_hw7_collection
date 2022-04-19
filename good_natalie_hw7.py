@@ -15,7 +15,7 @@ fig,axs = plt.subplots()
 axs.plot(wavelength, specific_luminosity, color = "m")
 axs.set_title('Spectral Energy Distribution')
 axs.set_xscale('log')
-axs.set(xlabel = "Wavelength in mirons", ylabel = "Specific Luminosity in Lsun/ micron")
+axs.set(xlabel = "Wavelength in microns", ylabel = "Specific Luminosity in Lsun/ micron")
 axs.set_yscale('log')
 
 x_array = np.array(wavelength)
